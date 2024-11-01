@@ -6,3 +6,6 @@ First, download the three circuit measurement files ".qasm" for each code solver
 
 # Acknowledgements
 Thank you to BlueQubit for providing me a credit to obtain an API to use their advanced quantum processing units (QPU) and high-performance GPU cluster backends
+
+# Citation
+Please ensure your use of this code, modification of this code, or other, provides me credit by listing: Jamie Kraus. Thank you.
