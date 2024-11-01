@@ -50,8 +50,8 @@ def run_sub_circuit(qasm_content, start_qubit, num_qubits):
         print(f"Failed to run the sub-circuit. Error: {e}")
         return {}
 
-# Load the circuit from the .qasm file
-qasm_file_path = "C:/Users/Jamie/BlueQubit Hackathon/circuit_3_60q.qasm"
+# Load the circuit from the .qasm file 
+qasm_file_path = "THE_DIRECTORY_WHERE_CIRCUIT_3_FILE_IS_LOCATED"  #For example "C:/Users/Jamie/QuantumCircuitSolver/circuit_3_60q.qasm"
 with open(qasm_file_path, 'r') as f:
     qasm_content = f.read()
 
