@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Initialize BlueQubit with API key
-bq = bluequbit.init("6lkHR1xEmOJjvAXqxWpMXzlXiMPK0JUE")
+bq = bluequbit.init("YOUR_BLUEQUBIT_API_KEY")
 
 # Loading the circuit from the .qasm file
 qasm_file_path = "C:/Users/Jamie/BlueQubit Hackathon/circuit_1_30q_fixed.qasm"
