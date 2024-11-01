@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 bq = bluequbit.init("YOUR_BLUEQUBIT_API_KEY")
 
 # Loading the circuit from the .qasm file
-qasm_file_path = "C:/Users/Jamie/BlueQubit Hackathon/circuit_1_30q_fixed.qasm"
+qasm_file_path = "YOUR_FOLDER_DIRECTORY_WHERE_CIRCUIT_FILES_ARE_LOCATED"
 with open(qasm_file_path, 'r') as f:
     qasm_content = f.read()
 
