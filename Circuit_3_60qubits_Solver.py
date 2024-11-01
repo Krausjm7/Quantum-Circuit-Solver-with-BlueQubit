@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Initialize BlueQubit with API key
-bq = bluequbit.init("6lkHR1xEmOJjvAXqxWpMXzlXiMPK0JUE")
+bq = bluequbit.init("YOUR_BLUEQUBIT_API_KEY")
 
 # Function to load and run a sub-circuit
 def run_sub_circuit(qasm_content, start_qubit, num_qubits):
