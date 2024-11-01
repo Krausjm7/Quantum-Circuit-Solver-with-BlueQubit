@@ -51,7 +51,7 @@ def run_sub_circuit(qasm_content, start_qubit, num_qubits):
         return {}
 
 # Loading the circuit from the .qasm file
-qasm_file_path = "YOUR_FOLDER_DIRECTORY_WHERE_CIRCUIT_FILES_ARE_LOCATED"
+qasm_file_path = "THE_DIRECTORY_WHERE_CIRCUIT_2_FILE_IS_LOCATED"  #For example "C:/Users/Jamie/QuantumCircuitSolver/circuit_2_42q.qasm"
 with open(qasm_file_path, 'r') as f:
     qasm_content = f.read()
 
